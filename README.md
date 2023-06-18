@@ -6,12 +6,12 @@ This is the interview questions for python dev skills.
 ### 1. How do you setup local python dev environment?  
 - What IDE do you use?
 
-Mostly I’ve been using Anaconda Navigator:  Spyder, Jupyter notebook, PyCharm.
+**Mostly Iâ€™ve been using Anaconda Navigator:  Spyder, Jupyter notebook, PyCharm.**
 
 - How do you setup python production environment in Linux?
   - List the cli commands if possible.
 
-I personally use conda, I create my virtual project specific env on conda. However, I give general approach for setup on Linux.
+**I personally use conda, I create my virtual project specific env on conda. However, I give general approach for setup on Linux.
 
 a) Open a Linux terminal.
 b) Choose the directory, where you want to create new environment.
@@ -21,21 +21,21 @@ e) If not installed, then install right version of python.
 f)                    sudo apt-get install python#
 g) Make sure pip installed:  sudo apt install python3-pip python3-dev
 h) Install virtualenv  pip3 install virtualenv
-i) Create new env ‘houseprice_pred_env’   
-j)                 python3 –m venv houseprice_pred_env or virtualenv venv houseprice_pred_env
+i) Create new env â€˜houseprice_pred_envâ€™   
+j)                 python3 â€“m venv houseprice_pred_env or virtualenv venv houseprice_pred_env
 k) Activate new env   source houseprice_pred_env /bin/activate
 l) Install ML Libraries:  pip install numpy pandas scikit-learn tensorflow etc..
 m) suppose we have above env already in local then run command.  pip freeze > requirements.txt
-n) n production, we can install same with one command.  pip install -r requirements.txt
+n) n production, we can install same with one command.  pip install -r requirements.txt**
 
 ---
 ### 2. Are you familiar using any linux distro?
 Yes
 - crontab 
-I am big fan of crontab, I have used to schedule jobs and run python script or ML models in necessary environment. We can schedule jobs on required frequency basis…like daily, hourly, weekly, every monthly etc. 
-	Eg: ‘crontab -l’: This will give the list of currently scheduled tasks. 
+I am big fan of crontab, I have used to schedule jobs and run python script or ML models in necessary environment. We can schedule jobs on required frequency basisâ€¦like daily, hourly, weekly, every monthly etc. 
+	Eg: â€˜crontab -lâ€™: This will give the list of currently scheduled tasks. 
 
-Below three are familiar to me but didn’t get much chance to exploit it.
+Below three are familiar to me but didnâ€™t get much chance to exploit it.
 - ssh 
 - nfs
 - nginx
