@@ -22,7 +22,7 @@ e) If not installed, then install right version of python.
 f)                    sudo apt-get install python#
 g) Make sure pip installed:  sudo apt install python3-pip python3-dev
 h) Install virtualenv  pip3 install virtualenv
-i) Create new env ‘houseprice_pred_env’   
+i) Create new env ‘houseprice_pred_env’.   
 j)                 python3 –m venv houseprice_pred_env or virtualenv venv houseprice_pred_env
 k) Activate new env   source houseprice_pred_env /bin/activate
 l) Install ML Libraries:  pip install numpy pandas scikit-learn tensorflow etc..
