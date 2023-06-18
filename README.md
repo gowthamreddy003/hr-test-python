@@ -13,7 +13,7 @@ This is the interview questions for python dev skills.
 
 **I personally use conda, I create my virtual project specific env on conda. However, I give general approach for setup on Linux.**
 
-**
+
 a) Open a Linux terminal.
 b) Choose the directory, where you want to create new environment.
 c) Make sure that your system updated to latest versions:  sudo apt update
@@ -28,7 +28,7 @@ k) Activate new env   source houseprice_pred_env /bin/activate
 l) Install ML Libraries:  pip install numpy pandas scikit-learn tensorflow etc..
 m) suppose we have above env already in local then run command.  pip freeze > requirements.txt
 n) n production, we can install same with one command.  pip install -r requirements.txt
-**
+
 ---
 ### 2. Are you familiar using any linux distro?
 **Yes**
