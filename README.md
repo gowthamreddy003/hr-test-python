@@ -11,8 +11,9 @@ This is the interview questions for python dev skills.
 - How do you setup python production environment in Linux?
   - List the cli commands if possible.
 
-**I personally use conda, I create my virtual project specific env on conda. However, I give general approach for setup on Linux.
+**I personally use conda, I create my virtual project specific env on conda. However, I give general approach for setup on Linux.**
 
+**
 a) Open a Linux terminal.
 b) Choose the directory, where you want to create new environment.
 c) Make sure that your system updated to latest versions:  sudo apt update
@@ -26,16 +27,17 @@ j)                 python3 –m venv houseprice_pred_env or virtualenv venv hous
 k) Activate new env   source houseprice_pred_env /bin/activate
 l) Install ML Libraries:  pip install numpy pandas scikit-learn tensorflow etc..
 m) suppose we have above env already in local then run command.  pip freeze > requirements.txt
-n) n production, we can install same with one command.  pip install -r requirements.txt**
-
+n) n production, we can install same with one command.  pip install -r requirements.txt
+**
 ---
 ### 2. Are you familiar using any linux distro?
-Yes
-- crontab 
-I am big fan of crontab, I have used to schedule jobs and run python script or ML models in necessary environment. We can schedule jobs on required frequency basis…like daily, hourly, weekly, every monthly etc. 
-	Eg: ‘crontab -l’: This will give the list of currently scheduled tasks. 
+**Yes**
+- crontab
+**I am big fan of crontab, I have used to schedule jobs and run python script or ML models in necessary environment. We can schedule jobs on required frequency basis…like daily, hourly, weekly, every monthly etc. 
+	Eg: ‘crontab -l’: This will give the list of currently scheduled tasks**
 
-Below three are familiar to me but didn’t get much chance to exploit it.
+**Below three are familiar to me but didn’t get much chance to exploit it**
+
 - ssh 
 - nfs
 - nginx
@@ -81,7 +83,7 @@ curl 127.0.0.1/noexist
 ```
 
 #### What to submit:
-- Python code Provided python code
+- Python code **Provided python code via my github link**
 
 ---
 ### 3.1 Nginx (Optional)
